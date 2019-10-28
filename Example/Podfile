@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'RYTPoclib_Example' do
+  pod 'RYTPoclib', :path => '../'
+
+  target 'RYTPoclib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
