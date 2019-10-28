@@ -7,12 +7,14 @@
 //
 
 #import "RYTAppDelegate.h"
+#import "HelloWorld.h"
 
 @implementation RYTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"%@", [HelloWorld getVersion]);
     return YES;
 }
 

@@ -1,0 +1,6 @@
+framework module Pods_RYTPoclib_Tests {
+  umbrella header "Pods-RYTPoclib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

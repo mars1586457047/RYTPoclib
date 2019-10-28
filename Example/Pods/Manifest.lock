@@ -1,0 +1,16 @@
+PODS:
+  - RYTPoclib (0.1.0)
+
+DEPENDENCIES:
+  - RYTPoclib (from `../`)
+
+EXTERNAL SOURCES:
+  RYTPoclib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RYTPoclib: b15797150afc996715005e02437aeeb5d3e75b09
+
+PODFILE CHECKSUM: ca335293b4c544759f5cbeed3a46b847233b19ed
+
+COCOAPODS: 1.8.4

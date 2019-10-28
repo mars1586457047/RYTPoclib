@@ -24,13 +24,14 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/mars1586457047/RYTPoclib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'mars1586457047' => 'marsmjyang@tencent.com' }
+  s.author           = { 'mars1586457047' => '1586457047@qq.com' }
   s.source           = { :git => 'https://github.com/mars1586457047/RYTPoclib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RYTPoclib/Classes/**/*'
+  s.source_files = 'RYTPoclib/Classes/*.*'
+  s.public_header_files = 'RYTPoclib/Classes/*.h'
   
   # s.resource_bundles = {
   #   'RYTPoclib' => ['RYTPoclib/Assets/*.png']
